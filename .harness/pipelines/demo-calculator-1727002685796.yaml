@@ -28,7 +28,8 @@ pipeline:
                     region: eu-south-2
                     account: "157586051329"
                     imageName: calculator-demo
-                    tags: <+input>
+                    tags:
+                      - current
           infrastructure:
             type: KubernetesDirect
             spec:
